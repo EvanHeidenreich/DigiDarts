@@ -1,8 +1,8 @@
 # **CS5002 Senior Design: DigiDarts**
 
 ## **Table of Contents**
-
-
+  - [1. Project Description](README.md)
+  - [2. Design Specifications](README.md)
 
 
 ## **1. Project Description**
