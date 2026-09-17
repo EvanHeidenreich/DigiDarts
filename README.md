@@ -27,3 +27,9 @@ Our goal is to develop an automated dartboard that utilizes computer vision to t
 #### **Front-End Specifications**
 
 #### **Hardware Specifications**
+
+  - Dell mini form-factor 750 Computers
+  - Dartboard (WIP BRAND)
+  - x2 Mini form-factor USB cameras (2 needed as of now, MAX 4)
+  - LED Light Strips
+  - Manufactur 3D printed Camera and light ring
