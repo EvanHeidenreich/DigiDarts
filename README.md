@@ -24,12 +24,24 @@ Our goal is to develop an automated dartboard that utilizes computer vision to t
 
 #### **Back-End Specifications**
 
+  - **Language/Framework:** Python with Flask, serving the API that connects the computer vision pipeline to the front-end
+  - **Computer Vision:** OpenCV paired with a custom-trained ML model for detecting dart tip location and scoring zone
+  - **Database:** Supabase, used to store player accounts, game history, and stats (games won/lost, win percentage, etc.)
+  - **API/Communication Layer:** Not yet finalized — under evaluation between a REST API and a REST + WebSockets approach for delivering live scoring updates
+
 #### **Front-End Specifications**
+
+  - **Platform/Framework:** Not yet finalized — planned as an app/website, exact framework to be determined
+  - **Key Features:**
+    - Game mode selection (501, 301, Cricket, Around the World)
+    - Live scoring display synced with dart throws detected by the back-end
+    - Player stats and leaderboards (games won/lost, win percentage, etc.)
 
 #### **Hardware Specifications**
 
-  - Dell mini form-factor 750 Computers
-  - Dartboard (WIP BRAND)
-  - x2 Mini form-factor USB cameras (2 needed as of now, MAX 4)
+  - Dell mini form-factor 760 Computers
+  - Dartboard (Viper)
+  - x2 Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module SKU: B0495C
   - LED Light Strips
   - Manufactur 3D printed Camera and light ring
+
