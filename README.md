@@ -3,7 +3,6 @@
 ## **Table of Contents**
   - [1. Project Description](README.md)
   - [2. Design Specifications](README.md)
-  - [3. Repository Structure](README.md)
 
 
 ## **1. Project Description**
@@ -45,3 +44,4 @@ Our goal is to develop an automated dartboard that utilizes computer vision to t
   - x2 Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module SKU: B0495C
   - LED Light Strips
   - Manufactur 3D printed Camera and light ring
+
