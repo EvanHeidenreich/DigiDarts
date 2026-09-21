@@ -39,7 +39,7 @@ Our goal is to develop an automated dartboard that utilizes computer vision to t
 
 #### **Hardware Specifications**
 
-  - Dell mini form-factor 760 Computers
+  - Dell mini form-factor 7060 Computers
   - Dartboard (Viper)
   - x2 Arducam 2.3MP AR0234 Color Global Shutter USB 3.0 Camera Module SKU: B0495C
   - LED Light Strips
