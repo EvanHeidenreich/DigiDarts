@@ -9,7 +9,7 @@
 
 ### **Meet the Team**
   - [Evan Heidenreich](team/Evan-Heidenreich-Biography.md)
-  - [Nicolas Rigg](team/Nicholas-Rigg-Biography.md)
+  - [Nicholas Rigg](team/Nicholas-Rigg-Biography.md)
   - [Jacob Curtis](team/Jacob-Curtis-Biography.md) 
 
 ### **Advisor**
