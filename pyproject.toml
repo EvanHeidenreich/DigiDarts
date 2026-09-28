@@ -1,0 +1,25 @@
+[project]
+name = "digidarts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Evan Heidenreich", email = "Heidenen@mail.uc.edu" }
+]
+requires-python = ">=3.9"
+dependencies = [
+    "numpy==1.26.4",
+    "opencv-python==4.10.0.84",
+]
+
+[project.scripts]
+digidarts = "digidarts:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest==8.3.3",
+]
