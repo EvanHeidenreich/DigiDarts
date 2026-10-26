@@ -33,7 +33,7 @@ while True:
         cv2.imwrite('opticalfb.png', currentFrame)
         cv2.imwrite('opticalhsv.png', bgr)
 
-        prvs = next
+    prvs = next
 
     # frame = cv2.resize(frame, (1080, 720))
     # data = cv2.imencode('.jpg', frame)[1].tobytes()
