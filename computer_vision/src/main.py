@@ -41,13 +41,14 @@ parser.add_argument("--height", type=int, default=1200)
 args = parser.parse_args()
 
 cap = cv2.VideoCapture(args.camera)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, args.width)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, args.height)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1920)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 1200)
+cap.set(cv2.CAP_PROP_FPS, 50)
 ret, frame = cap.read()
 if not ret:
     sys.exit("No frames received")
 image_size = (frame.shape[1], frame.shape[0])
-print(f"Camera {args.camera}: {image_size[0]}x{image_size[1]} at {cap.get(cv2.CAP_PROP_FPS):.0f} fps")
+print(f"Camera {args.camera}: {cap.get(cv2.CAP_PROP_FRAME_WIDTH)}x{cap.get(cv2.CAP_PROP_FRAME_HEIGHT)}) at {cap.get(cv2.CAP_PROP_FPS):.0f} fps")
 
 landmark_names = list(CALIBRATION_LANDMARKS)
 clicks = []
