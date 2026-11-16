@@ -14,8 +14,10 @@ args = parser.parse_args()
 # create Background Subtractor objects
 if args.algo == 'MOG2':
     backSub = cv2.createBackgroundSubtractorMOG2()
+    print("Using MOG2\n")
 else:
     backSub = cv2.createBackgroundSubtractorKNN()
+    print("Using KNN\n")
 
 
 framesToCapture = 0
@@ -56,8 +58,10 @@ while True:
         # framesToCapture = 5
         placeholderI = placeholderI + 1
 
-        frameDupe = frame
-        alphaMask = backSub.apply(frameDupe)
+        # frameDupe = frame
+        # alphaMask = backSub.apply(frameDupe)
+        frameDupe = frame.copy()
+        alphaMask = fgMask.copy()
 
         _, alpha = cv2.threshold(alphaMask, 100, 255, cv2.THRESH_BINARY) # 2nd parameter was 200, trying 50
         bgra = cv2.cvtColor(frameDupe, cv2.COLOR_BGR2BGRA)
